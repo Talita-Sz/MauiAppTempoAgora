@@ -8,14 +8,17 @@
             Padding="30,0"
             Spacing="25">
 
+            
 
-            <Button Text="Minha localização" Clicked="Button_Clicked_Localizacao" />
+            <Button Text="Minha localização" Clicked="Button_Clicked_Localizacao" BackgroundColor="CornflowerBlue"
+                    TextColor="Black"/>
             <Label x:Name="lbl_coords" />
 
 
 
             <Entry x:Name="txt_cidade" />
-            <Button Text="Buscar previsão" Clicked="Button_Clicked_Previsao" />
+            <Button Text="Buscar previsão" Clicked="Button_Clicked_Previsao" BackgroundColor="CornflowerBlue"
+                    TextColor="Black"/>
 
             <Label x:Name="lbl_res" />
 
